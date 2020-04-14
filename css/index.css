@@ -158,6 +158,11 @@ p {
   background-color: bisque;
   width: 70%;
 }
+@media (max-width: 500px) {
+  .experience {
+    width: 55%;
+  }
+}
 .experienceSubheading {
   padding: 50px;
 }
