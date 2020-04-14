@@ -127,6 +127,9 @@ table {
   border-spacing: 0;
 }
 /* Set every element's box-sizing to border-box */
+.experience-boxes {
+  border: 2px dotted bisque;
+}
 * {
   box-sizing: border-box;
 }
@@ -139,6 +142,7 @@ body {
 p {
   padding: 20px;
   text-align: center;
+  border: 2px dotted black;
 }
 .experience {
   display: flex;
@@ -164,6 +168,15 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Roboto', sans-serif;
+  width: 515px;
+  text-align: center;
+}
+.experienceSubheading h3 {
+  border: 2px dotted bisque;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 515px;
   text-align: center;
 }

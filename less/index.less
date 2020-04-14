@@ -52,6 +52,14 @@ table {
 @color-background:bisque;
 @mainFont: 'Roboto', sans-serif;
 @heading-font:'Open Sans', sans-serif;
+
+.list-boxes(){
+	border: 2px dotted black;
+}
+
+.experience-boxes{
+	border: 2px dotted bisque;
+}
 * {
     box-sizing: border-box;
 }
@@ -62,9 +70,11 @@ html, body {
 	width: 100%;
 }
 
+
 p{
 	padding: 20px;
 	text-align: center;
+	.list-boxes();
 }
 .experience{
 	display: flex;
@@ -94,6 +104,17 @@ p{
 
 
 	}
+
+	h3{
+		.experience-boxes();
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 40px;
+		padding-right: 40px;
+		width: 515px;
+		text-align: center;
+	}
+	
 
 }
 
