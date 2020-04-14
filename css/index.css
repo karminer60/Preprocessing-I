@@ -159,7 +159,7 @@ p {
   width: 70%;
 }
 .experienceSubheading {
-  padding: 60px;
+  padding: 50px;
 }
 .experienceSubheading h2 {
   background-color: bisque;
@@ -168,8 +168,13 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Roboto', sans-serif;
-  width: 515px;
+  width: 700px;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .experienceSubheading {
+    padding: 2.5%;
+  }
 }
 .experienceSubheading h3 {
   border: 2px dotted bisque;
@@ -177,7 +182,7 @@ p {
   padding-bottom: 30px;
   padding-left: 40px;
   padding-right: 40px;
-  width: 515px;
+  width: 750px;
   text-align: center;
 }
 .second-section-row {
@@ -193,6 +198,14 @@ p {
   height: 30%;
   padding-left: 13%;
   padding-top: 15%;
+}
+@media (max-width: 500px) {
+  .second-section-row img {
+    height: 20%;
+  }
+}
+.second-section-row nav {
+  padding: 30px;
 }
 .secondClassSection {
   padding-left: 25px;
