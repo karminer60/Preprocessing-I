@@ -133,22 +133,46 @@ table {
 html,
 body {
   height: 100%;
+  display: flex;
+  width: 100%;
+}
+.experience {
+  width: 750px;
+}
+.experience h1 {
+  text-align: center;
+  padding: 45px;
+  font-size: 20px;
+  background-color: bisque;
 }
 .experienceSubheading {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 60px;
-}
-.container-top {
-  display: flex;
-}
-.secondClassSection {
-  padding: 30px;
-  background-color: white;
-  margin: 15px;
 }
 .second-section-row {
+  display: flex;
+  flex-direction: column;
   background-color: grey;
-  padding: 60px;
-  height: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 500px;
+}
+.second-section-row img {
+  width: 75%;
+  height: 30%;
+  padding-left: 13%;
+  padding-top: 15%;
+}
+.secondClassSection {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: white;
+  margin: 20px;
+}
+.secondClassSection h3 {
+  text-align: center;
 }
