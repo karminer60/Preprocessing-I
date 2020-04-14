@@ -136,20 +136,36 @@ body {
   display: flex;
   width: 100%;
 }
+p {
+  padding: 20px;
+  text-align: center;
+}
 .experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 750px;
 }
 .experience h1 {
   text-align: center;
-  padding: 45px;
+  padding: 70px;
   font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
   background-color: bisque;
+  width: 70%;
 }
 .experienceSubheading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 60px;
+}
+.experienceSubheading h2 {
+  background-color: bisque;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  width: 515px;
+  text-align: center;
 }
 .second-section-row {
   display: flex;
@@ -175,4 +191,5 @@ body {
 }
 .secondClassSection h3 {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
