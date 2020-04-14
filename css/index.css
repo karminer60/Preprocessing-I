@@ -1,1 +1,226 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+.experience-boxes {
+  border: 2px dotted bisque;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+p {
+  padding: 20px;
+  text-align: center;
+  border: 2px dotted black;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750px;
+}
+.experience h1 {
+  text-align: center;
+  padding: 70px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: bisque;
+  width: 70%;
+}
+@media (max-width: 500px) {
+  .experience {
+    width: 55%;
+  }
+}
+.experienceSubheading {
+  padding: 50px;
+}
+.experienceSubheading h2 {
+  background-color: bisque;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  width: 700px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .experienceSubheading {
+    padding: 2.5%;
+  }
+}
+.experienceSubheading h3 {
+  border: 2px dotted bisque;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 750px;
+  text-align: center;
+}
+.second-section-row {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 500px;
+}
+.second-section-row img {
+  width: 75%;
+  height: 30%;
+  padding-left: 13%;
+  padding-top: 15%;
+}
+@media (max-width: 500px) {
+  .second-section-row img {
+    height: 20%;
+  }
+}
+.second-section-row nav {
+  padding: 30px;
+}
+.secondClassSection {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: white;
+  margin: 20px;
+}
+.secondClassSection h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
